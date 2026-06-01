@@ -1,0 +1,9 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "dissmapr: Workflow for Compositional Dissimilarity and Biodiversity Turnover Analysis",
+  author   = person("Sandra", "MacFadyen",
+                    email = "macfadyen@sun.ac.za",
+                    comment = c(ORCID = "0000-0002-5316-440X")),
+  year     = 2025,
+  url      = "https://github.com/b-cubed-eu/dissmapr"
+)

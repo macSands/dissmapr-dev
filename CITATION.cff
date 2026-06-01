@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "dissmapr: Workflow for Compositional Dissimilarity and Biodiversity Turnover Analysis"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/b-cubed-eu/dissmapr"
+url: "https://b-cubed-eu.github.io/dissmapr/"
+authors:
+  - family-names: MacFadyen
+    given-names: Sandra
+    email: macfadyen@sun.ac.za
+    orcid: "https://orcid.org/0000-0002-5316-440X"
+    affiliation: "Stellenbosch University"
+keywords:
+  - r
+  - rstats
+  - r-package
+  - biodiversity
+  - zeta-diversity
+  - dissimilarity
+  - bioregions
+  - compositional-turnover

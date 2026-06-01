@@ -1,0 +1,62 @@
+url: https://b-cubed-eu.github.io/dissmapr/
+
+template:
+  bootstrap: 5
+  bslib:
+    bg: "#ffffff"
+    fg: "#000000"
+    primary: "#2e8b57"
+
+articles:
+- title: Tutorials
+  navbar: Tutorials
+  contents:
+  - articles/setup
+  - articles/grid
+  - articles/enviro
+  - articles/zeta
+  - zeta_workflow
+  - predict
+  - articles/bioregion
+  - articles/change
+  - examples
+
+reference:
+- title: Data Import and Preparation
+  contents:
+  - get_occurrence_data
+  - format_df
+  - generate_grid
+  - assign_mapsheet
+  - get_enviro_data
+  - rm_correlated
+
+- title: Metric Computation
+  contents:
+  - compute_orderwise
+  - calc_richness
+  - calc_turnover
+  - calc_abund
+  - calc_phi_coef
+  - calc_cor_spear
+  - calc_cor_pears
+  - calc_diss_bcurt
+  - calc_orderwise_gower
+  - calc_mutual_info
+  - calc_geodist
+  - calc_distance
+  - calc_gower
+  - calculate_pairwise_distances_matrix
+  - calculate_pairwise_gower_dist_matrix
+
+- title: Zeta Diversity Modelling
+  contents:
+  - run_ispline_models
+  - predict_dissim
+
+- title: Visualisation
+  contents:
+  - plot_ispline_lines
+  - plot_ispline_boxplots
+  - map_bioreg
+  - map_bioreg_diff

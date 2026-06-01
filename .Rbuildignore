@@ -1,2 +1,13 @@
 ^dissmapr\.Rproj$
 ^\.Rproj\.user$
+^\.Rhistory$
+^README\.Rmd$
+^LICENSE\.md$
+^CITATION\.cff$
+^\.zenodo\.json$
+^codemeta\.json$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^xxx-fix-tutorials$

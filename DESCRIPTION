@@ -1,11 +1,65 @@
 Package: dissmapr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: Workflow for Compositional Dissimilarity and Biodiversity Turnover Analysis
+Version: 0.1.0
+Authors@R: c(
+    person("Sandra", "MacFadyen",
+           email = "macfadyen@sun.ac.za",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5316-440X")),
+    person("Stellenbosch University", role = "cph")
+    )
+Description: Tools to compute and map biodiversity turnover at the
+    macroscale. Provides functions for generating spatial grids, retrieving
+    environmental data, computing multi-order zeta diversity, fitting
+    I-spline models for generalised dissimilarity, predicting community
+    turnover, and delineating and mapping bioregions and their changes
+    over time.
+License: MIT + file LICENSE
+URL: https://github.com/b-cubed-eu/dissmapr,
+    https://b-cubed-eu.github.io/dissmapr/
+BugReports: https://github.com/b-cubed-eu/dissmapr/issues
+Depends: R (>= 4.1.0)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 8.0.0
+Imports:
+    cluster,
+    data.table,
+    dplyr,
+    factoextra,
+    fields,
+    future,
+    geodata,
+    geosphere,
+    ggplot2,
+    mclust,
+    NbClust,
+    patchwork,
+    pbapply,
+    purrr,
+    rlang,
+    scales,
+    sf,
+    terra,
+    tibble,
+    tidyr,
+    zetadiv,
+    zoo
+Suggests:
+    caret,
+    cli,
+    corrplot,
+    covr,
+    entropy,
+    future.apply,
+    httr,
+    knitr,
+    RColorBrewer,
+    remotes,
+    reshape2,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    vegan,
+    viridis
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.0.0
