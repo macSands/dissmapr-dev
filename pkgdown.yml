@@ -1,0 +1,17 @@
+pandoc: 3.8.3
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles:
+  articles/bioregion: bioregion.html
+  articles/change: change.html
+  articles/enviro: enviro.html
+  examples: examples.html
+  articles/grid: grid.html
+  predict: predict.html
+  articles/setup: setup.html
+  zeta_workflow: zeta_workflow.html
+  articles/zeta: zeta.html
+last_built: 2026-06-03T06:10Z
+urls:
+  reference: https://b-cubed-eu.github.io/dissmapr/reference
+  article: https://b-cubed-eu.github.io/dissmapr/articles
